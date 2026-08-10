@@ -1,0 +1,110 @@
+name: Weekly ZGA and MZT papers
+
+on:
+  schedule:
+    # GitHub cron is UTC. Running at both candidate UTC hours and checking
+    # America/New_York below keeps noon correct across daylight-saving time.
+    - cron: "0 16,17 * * 5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-zga-mzt-main
+  cancel-in-progress: false
+
+jobs:
+  build-email-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Confirm Friday noon Eastern or manual run
+        id: clock
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          elif [ "$(TZ=America/New_York date +%u-%H)" = "5-12" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out repository
+        if: steps.clock.outputs.run == 'true'
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        if: steps.clock.outputs.run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install PDF renderer and dependencies
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils fonts-dejavu-core
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+
+      - name: Restore local-model cache
+        if: steps.clock.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-qwen3-4b-${{ runner.os }}-v1
+
+      - name: Start local model (no OpenAI API)
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          ollama serve > /tmp/ollama.log 2>&1 &
+          for attempt in {1..40}; do
+            if ollama list >/dev/null 2>&1; then break; fi
+            sleep 2
+          done
+          ollama pull qwen3:4b
+
+      - name: Create weekly infographic and email it
+        if: steps.clock.outputs.run == 'true'
+        env:
+          OLLAMA_MODEL: qwen3:4b
+          OLLAMA_REQUEST_TIMEOUT: "3600"
+          SMTP_HOST: smtp.gmail.com
+          SMTP_PORT: "465"
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: huic@sc.edu
+        run: python -m pipeline.run
+
+      - name: Commit PDFs, reports, and state to GitHub
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          if git diff --quiet -- pdf reports state; then
+            echo "No archive changes to commit."
+            exit 0
+          fi
+          git config user.name "weekly-zga-papers[bot]"
+          git config user.email "weekly-zga-papers[bot]@users.noreply.github.com"
+          git add pdf reports state
+          git commit -m "Archive weekly ZGA and MZT infographic"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Upload recovery artifact
+        if: always() && steps.clock.outputs.run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-zga-mzt-${{ github.run_id }}
+          path: |
+            pdf/
+            reports/
+            state/weekly_state.json
+          if-no-files-found: ignore
+          retention-days: 30
+
