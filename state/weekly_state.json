@@ -1,6 +1,58 @@
 {
   "version": 1,
-  "processed_ids": {},
-  "runs": []
+  "processed_ids": {
+    "10.1038/s44319-026-00881-7": {
+      "title": "CtBP1/2 restrict DUX-dependent and independent 2C-like programs in mouse embryonic stem cells.",
+      "publication_date": "2026-08-03",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-09.json"
+    },
+    "10.64898/2026.07.31.742013": {
+      "title": "PAIP1 couples mRNA export to cytoplasmic mRNP remodeling and poly(A) homeostasis",
+      "publication_date": "2026-08-03",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-09.json"
+    },
+    "10.64898/2026.08.03.742464": {
+      "title": "Transcriptomic view of key events during early embryogenesis in the duplicated Atlantic salmon genome",
+      "publication_date": "2026-08-04",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-09.json"
+    },
+    "10.1016/j.gde.2026.102517": {
+      "title": "The role of transposable elements-endogenous retroviruses in embryonic development and regeneration.",
+      "publication_date": "2026-08-05",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-09.json"
+    },
+    "10.1371/journal.pbio.3003896": {
+      "title": "Asymmetric chromatin accessibility underlies anterior-posterior axis specification in moth fly embryos.",
+      "publication_date": "2026-08-06",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-09.json"
+    },
+    "10.1126/sciadv.aec9545": {
+      "title": "High-resolution mapping of embryonic genome activation unveils a decoupling of transcription activation from precocious H3K4me3 removal.",
+      "publication_date": "2026-08-07",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-09.json"
+    }
+  },
+  "runs": [
+    {
+      "coverage": {
+        "start": "2026-08-03",
+        "end": "2026-08-09",
+        "query_start": "2026-08-03"
+      },
+      "pdf": "pdf/2026/zga_mzt_weekly_2026-08-09.pdf",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-09.json",
+      "papers": 6,
+      "qa": {
+        "pages": 23,
+        "bytes": 67477
+      },
+      "email": {
+        "status": "verified",
+        "recipient": "huic@sc.edu",
+        "accepted_at": "2026-08-10T02:00:35.617111+00:00",
+        "detail": "SMTP server accepted the message."
+      }
+    }
+  ],
+  "last_successful_run": "2026-08-10T01:37:42.504138+00:00"
 }
-
