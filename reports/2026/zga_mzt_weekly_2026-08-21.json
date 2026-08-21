@@ -1,0 +1,373 @@
+{
+  "coverage": {
+    "start": "2026-08-15",
+    "end": "2026-08-21",
+    "query_start": "2026-08-08"
+  },
+  "retrieved_at": "2026-08-21T16:39:36.301380+00:00",
+  "papers": [
+    {
+      "id": "10.1016/j.anireprosci.2026.108306",
+      "title": "CNOT1 is a potential YTHDF2 target that orchestrates maternal mRNA decay and zygotic genome activation during goat embryogenesis.",
+      "authors": "Chen X, Yang Y, Zhang J, Chen H, Wang F, Deng M.",
+      "journal": "MED",
+      "category": "research",
+      "article_type": "Journal Article",
+      "publication_date": "2026-08-10",
+      "doi": "10.1016/j.anireprosci.2026.108306",
+      "canonical_url": "https://doi.org/10.1016/j.anireprosci.2026.108306",
+      "abstract": "Timely and efficient degradation of maternal mRNA is essential for early embryonic development, which occurs from fertilization through the initiation of zygotic genome activation (ZGA). Yet, the regulatory mechanisms governing this process remain poorly characterized. In the present study, we investigated the function of CCR4-NOT transcription complex subunit 1 (CNOT1) during goat embryogenesis. We found that CNOT1 was upregulated during mammalian ZGA, and that its knockdown led to developmental arrest and a marked reduction in blastocyst formation. Moreover, CNOT1 knockdown impaired nascent RNA activity, resulting in 814 upregulated and 1014 downregulated genes, which were enriched for RNA splicing, regulation of chromosome organization, and RNA localization. RNA splicing analysis revealed differential splicing events in 2959 genes, of which 259 were downregulated following CNOT1 knockdown. Notably, CNOT1 was predicted to crosstalk with the m6A reader YTHDF2. Knockdown of YTHDF2 resulted in CNOT1 downregulation at the 8-cell stage in goats and increased transcription levels around polyadenylation sites during ZGA in mice. Together, these findings indicate that CNOT1 is a potential YTHDF2 target that orchestrates maternal mRNA decay and ZGA during goat embryogenesis. Our work provides new insight into the complex regulatory landscape underlying ZGA and may inform strategies to improve the efficiency of goat embryogenesis.",
+      "access_note": "Europe PMC abstract/metadata; full text not assumed.",
+      "source": "Europe PMC",
+      "late_indexed": true,
+      "main_discovery": "CNOT1 is a potential YTHDF2 target that orchestrates maternal mRNA decay and zygotic genome activation (ZGA) during goat embryogenesis, with knockdown causing developmental arrest and altered RNA splicing and transcription.",
+      "importance_implication": "This work provides new insight into the regulatory mechanisms of ZGA and maternal mRNA decay in mammals, potentially informing strategies to improve goat embryogenesis efficiency.",
+      "methods": [
+        "Knockdown of CNOT1 in goat embryos",
+        "RNA-seq analysis",
+        "Splicing analysis",
+        "YTHDF2 knockdown experiments"
+      ],
+      "key_evidence": [
+        "CNOT1 upregulation during mammalian ZGA",
+        "CNOT1 knockdown leads to developmental arrest and reduced blastocyst formation",
+        "CNOT1 knockdown impairs nascent RNA activity, altering 814 upregulated and 1014 downregulated genes",
+        "Differential splicing events in 2959 genes, with 259 downregulated following CNOT1 knockdown",
+        "CNOT1 predicted to crosstalk with YTHDF2; YTHDF2 knockdown results in CNOT1 downregulation at 8-cell stage in goats and increased transcription around polyadenylation sites during ZGA in mice"
+      ],
+      "limitations": [
+        "The study focuses on goats, not Xenopus laevis/tropicalis",
+        "CNOT1's role in maternal mRNA decay is inferred but not directly demonstrated",
+        "The crosstalk with YTHDF2 is predicted but not experimentally confirmed in goats",
+        "Limited data on the exact timing of CNOT1 upregulation and ZGA initiation in goats"
+      ],
+      "grant_ideas": [
+        {
+          "title": "Role of CNOT1 in maternal mRNA decay during early Xenopus laevis development",
+          "hypothesis": "CNOT1 is essential for maternal mRNA decay at the 8-cell stage in Xenopus laevis, with knockdown causing developmental arrest and altered ZGA.",
+          "rationale": "The evidence shows CNOT1's role in maternal mRNA decay and ZGA in goats, and Xenopus laevis is a model system with well-characterized ZGA timing and maternal mRNA decay mechanisms.",
+          "design": "Knockdown of CNOT1 at the 8-cell stage in Xenopus laevis embryos using morpholino antisense oligonucleotides, followed by RNA-seq and splicing analysis to assess maternal mRNA decay and ZGA.",
+          "readouts_controls": "Primary readout: Developmental arrest at 8-cell stage; Controls: CNOT1 knockdown efficiency, rescue experiments with wild-type CNOT1, and comparison with control morpholino.",
+          "support_refute": "Supporting result: If CNOT1 knockdown causes developmental arrest and altered ZGA, as observed in goats, this would support the hypothesis. Refuting result: If CNOT1 knockdown does not affect maternal mRNA decay or ZGA, it would indicate a species-specific role.",
+          "novelty_feasibility_risk": "Novelty: First study to test CNOT1's role in maternal mRNA decay in Xenopus laevis. Feasibility: High, as Xenopus laevis has well-established protocols for ZGA studies. Risk: Species-specific differences in CNOT1 function may limit applicability."
+        },
+        {
+          "title": "YTHDF2-CNOT1 interaction in Xenopus laevis ZGA",
+          "hypothesis": "YTHDF2 regulates CNOT1 expression during ZGA in Xenopus laevis, with knockdown of YTHDF2 causing CNOT1 downregulation and altered maternal mRNA decay.",
+          "rationale": "The evidence predicts CNOT1 crosstalk with YTHDF2 in goats and shows YTHDF2 knockdown increases transcription around polyadenylation sites during ZGA in mice, suggesting a conserved mechanism.",
+          "design": "Knockdown of YTHDF2 at the 8-cell stage in Xenopus laevis embryos, followed by RNA-seq and CNOT1 expression analysis to assess maternal mRNA decay and ZGA.",
+          "readouts_controls": "Primary readout: CNOT1 downregulation and altered maternal mRNA decay; Controls: YTHDF2 knockdown efficiency, rescue experiments with wild-type YTHDF2, and comparison with control morpholino.",
+          "support_refute": "Supporting result: If YTHDF2 knockdown causes CNOT1 downregulation and maternal mRNA decay defects, this would support the hypothesis. Refuting result: If YTHDF2 knockdown does not affect CNOT1 expression or maternal mRNA decay, it would indicate a non-conserved mechanism.",
+          "novelty_feasibility_risk": "Novelty: First study to test YTHDF2-CNOT1 interaction in Xenopus laevis. Feasibility: Moderate, as Xenopus laevis has well-characterized ZGA timing. Risk: Potential differences in YTHDF2 function between species may affect outcomes."
+        },
+        {
+          "title": "Impact of CNOT1 on RNA splicing during ZGA in Xenopus laevis",
+          "hypothesis": "CNOT1 is critical for RNA splicing during ZGA in Xenopus laevis, with knockdown causing aberrant splicing and developmental defects.",
+          "rationale": "The evidence shows CNOT1 knockdown in goats leads to differential splicing events in 2959 genes, suggesting a conserved role in RNA splicing during ZGA.",
+          "design": "Knockdown of CNOT1 at the 8-cell stage in Xenopus laevis embryos, followed by RNA-seq and splicing analysis to assess splicing events and developmental outcomes.",
+          "readouts_controls": "Primary readout: Aberrant splicing events and developmental arrest; Controls: CNOT1 knockdown efficiency, rescue experiments with wild-type CNOT1, and comparison with control morpholino.",
+          "support_refute": "Supporting result: If CNOT1 knockdown causes aberrant splicing and developmental arrest, this would support the hypothesis. Refuting result: If CNOT1 knockdown does not affect splicing or development, it would indicate a non-conserved role.",
+          "novelty_feasibility_risk": "Novelty: First study to test CNOT1's role in RNA splicing during ZGA in Xenopus laevis. Feasibility: High, as Xenopus laevis has well-established splicing analysis protocols. Risk: Species-specific differences in splicing mechanisms may limit applicability."
+        }
+      ]
+    },
+    {
+      "id": "10.1016/j.bbrc.2026.154417",
+      "title": "Pcgf5 controls the exit from totipotency in mouse embryonic stem cells.",
+      "authors": "Mashiko S, Honda S, Ikeda S, Tsukiyama T.",
+      "journal": "MED",
+      "category": "research",
+      "article_type": "Journal Article",
+      "publication_date": "2026-08-11",
+      "doi": "10.1016/j.bbrc.2026.154417",
+      "canonical_url": "https://doi.org/10.1016/j.bbrc.2026.154417",
+      "abstract": "Mouse embryonic stem cell (ESC) cultures contain a rare subpopulation of two-cell-like cells (2CLCs) that transiently reactivate a two-cell embryo-like transcriptional program characteristic of zygotic genome activation (ZGA), including the endogenous retrovirus MERVL and Zscan4, and thereby regain a totipotent-like state. Polycomb repressive complex 1 (PRC1)-mediated H2AK119ub1 has been implicated in restraining entry into the 2C-like state through Pcgf6, yet the factors governing exit from this state and loss of totipotency remain poorly defined. Here, we show that among the six Pcgf paralogs, Pcgf5, which is most prominently upregulated in 2CLCs and forms an MERVL-driven chimeric transcript (Pcgf5 MT2C_Mm ) during ZGA in 2-cell embryos, controls exit from the 2C-like state in mouse ESCs. Using a reporter ESC line carrying MERVL-tdTomato and Zscan4c-EGFP (MtZG), we manipulated Pcgf5 dosage bidirectionally. Doxycycline (Dox)-inducible overexpression (OE) of Pcgf5 reduced the double-positive (DP) 2C-like population. Conversely, CRISPR-mediated knockout (KO) of Pcgf5 by targeting a common exon shared by all Pcgf5 variants (hereafter, total Pcgf5) increased the DP population. Time-lapse imaging directly confirmed that these changes reflected genuine differences in duration of the 2C-like state: OE shortened, whereas KO prolonged, the time cells spent in this state. These findings reveal that a Polycomb group factor controls not only entry into but also exit from the 2C-like state.",
+      "access_note": "Europe PMC abstract/metadata; full text not assumed.",
+      "source": "Europe PMC",
+      "late_indexed": true,
+      "main_discovery": "Abstract-level finding (manual verification required): Mouse embryonic stem cell (ESC) cultures contain a rare subpopulation of two-cell-like cells (2CLCs) that transiently reactivate a two-cell embryo-like transcriptional program characteristic of zygotic genome activation (ZGA), including the endogenous retrovirus MERVL and Zscan4, and thereby regain a totipotent-like state. Polycomb repressive complex 1 (PRC1)-mediated H2AK119ub1 has been implicated in restraining entry into the 2C-like state through Pcgf6, yet the factors governing exit from this state and loss of totipotency remain poorly defined. Here, we show that among the six Pcgf paralogs, Pcgf5, which is most prominently upregulated in 2CLCs and forms an MERVL-driven chimeric transcript (Pcgf5 MT2C_Mm ) during ZGA in 2-cell embryos, controls exit from the 2C-like state in mouse ESCs. Using a reporter ESC line carrying MERVL-tdTomato and Zscan4c-EGFP (MtZG), we manipulated Pcgf5 dosage bidirectionally. Doxycycline (Dox)-inducible overexpression (OE) of Pcgf5 reduced the double-positive (DP) 2C-like population. Conversely, CRISPR-mediated knockout (KO) of Pcgf5 by targeting a common exon shared by all Pcgf5 variants (hereafter, total Pcgf5) increased the DP population. Time-la",
+      "importance_implication": "Potential relevance to ZGA/MZT is established by the title or abstract; detailed implications require inspection of the linked paper.",
+      "methods": [
+        "Methods were not reliably extractable from the available metadata."
+      ],
+      "key_evidence": [
+        "Accessible title/abstract metadata only."
+      ],
+      "limitations": [
+        "Automated fallback used; full text was not reviewed.",
+        "Local-model analysis failed: JSONDecodeError."
+      ],
+      "grant_ideas": [
+        {
+          "title": "Test conservation of the featured mechanism at the Xenopus mid-blastula transition",
+          "hypothesis": "Speculative: the featured factor or pathway changes the timing or amplitude of early zygotic transcription in Xenopus.",
+          "rationale": "Early Xenopus embryos provide rapid, externally accessible perturbation of pre-MBT and MBT stages.",
+          "design": "Perturb the candidate by validated CRISPR, mRNA, or rescue-controlled morpholino; assay stage-matched nascent transcription and candidate targets before and after MBT.",
+          "readouts_controls": "Primary readout: nascent RNA or targeted transcript abundance. Controls: uninjected and scrambled controls, rescue, stage matching, orthogonal perturbation, and developmental morphology.",
+          "support_refute": "Support: reproducible stage-specific change rescued by wild-type reagent. Refute/redirect: no molecular effect despite validated perturbation, prompting tissue-specific or combinatorial tests.",
+          "novelty_feasibility_risk": "Novelty medium; feasibility medium; main risk is weak cross-species conservation."
+        }
+      ]
+    },
+    {
+      "id": "10.7554/elife.108371",
+      "title": "Nucleation-dependent propagation of Polycomb modifications emerges during the <i>Drosophila</i> maternal to zygotic transition.",
+      "authors": "Gonzaga-Saavedra N, Degen EA, Soluri IV, Croslyn C, Blythe SA.",
+      "journal": "MED",
+      "category": "research",
+      "article_type": "Journal Article",
+      "publication_date": "2026-08-13",
+      "doi": "10.7554/elife.108371",
+      "canonical_url": "https://doi.org/10.7554/elife.108371",
+      "abstract": "During zygotic genome activation in Drosophila , broad domains of Polycomb-modified chromatin are rapidly established across the genome. Here, we investigate the spatial and temporal dynamics by which Polycomb group (PcG) histone modifications, H3K27me3 and H2Aub, emerge during early embryogenesis. Using ChIP-seq and live imaging of CRISPR-engineered GFP-tagged PcG components, we show that PRC2-dependent H3K27me3 accumulates adjacent to a subset of E(z)-bound prospective Polycomb response elements (PREs) beginning in nuclear cycle 14 (NC14), with patterns indicative of nucleation followed by spreading. Surprisingly, PRE-binding factors Pho, Combgap, and GAGA-factor are excluded from interphase nuclei prior to NC10, despite nuclear localization of E(z) throughout early interphases. Loss-of-function studies further demonstrate that GAGA-factor is largely dispensable for PcG domain establishment, whereas the pioneer factor Zelda is required for proper deposition of H3K27me3 and H2Aub at a subset of Polycomb domains. The role of Zelda at Polycomb domains is context-dependent; a subset of targets requires Zelda not for E(z) recruitment, but instead to license an E(z)-loaded PRE to deposit H3K27me3. Our findings support a model where licensing of PcG domains is an initial step in the regulatory processes governing Polycomb-regulated developmental genes.",
+      "access_note": "Europe PMC abstract/metadata; full text not assumed.",
+      "source": "Europe PMC",
+      "late_indexed": true,
+      "main_discovery": "Abstract-level finding (manual verification required): During zygotic genome activation in Drosophila , broad domains of Polycomb-modified chromatin are rapidly established across the genome. Here, we investigate the spatial and temporal dynamics by which Polycomb group (PcG) histone modifications, H3K27me3 and H2Aub, emerge during early embryogenesis. Using ChIP-seq and live imaging of CRISPR-engineered GFP-tagged PcG components, we show that PRC2-dependent H3K27me3 accumulates adjacent to a subset of E(z)-bound prospective Polycomb response elements (PREs) beginning in nuclear cycle 14 (NC14), with patterns indicative of nucleation followed by spreading. Surprisingly, PRE-binding factors Pho, Combgap, and GAGA-factor are excluded from interphase nuclei prior to NC10, despite nuclear localization of E(z) throughout early interphases. Loss-of-function studies further demonstrate that GAGA-factor is largely dispensable for PcG domain establishment, whereas the pioneer factor Zelda is required for proper deposition of H3K27me3 and H2Aub at a subset of Polycomb domains. The role of Zelda at Polycomb domains is context-dependent; a subset of targets requires Zelda not for E(z) recruitment, but instead to license an E(z)-loaded PRE to depos",
+      "importance_implication": "Potential relevance to ZGA/MZT is established by the title or abstract; detailed implications require inspection of the linked paper.",
+      "methods": [
+        "Methods were not reliably extractable from the available metadata."
+      ],
+      "key_evidence": [
+        "Accessible title/abstract metadata only."
+      ],
+      "limitations": [
+        "Automated fallback used; full text was not reviewed.",
+        "Local-model analysis failed: ValueError."
+      ],
+      "grant_ideas": [
+        {
+          "title": "Test conservation of the featured mechanism at the Xenopus mid-blastula transition",
+          "hypothesis": "Speculative: the featured factor or pathway changes the timing or amplitude of early zygotic transcription in Xenopus.",
+          "rationale": "Early Xenopus embryos provide rapid, externally accessible perturbation of pre-MBT and MBT stages.",
+          "design": "Perturb the candidate by validated CRISPR, mRNA, or rescue-controlled morpholino; assay stage-matched nascent transcription and candidate targets before and after MBT.",
+          "readouts_controls": "Primary readout: nascent RNA or targeted transcript abundance. Controls: uninjected and scrambled controls, rescue, stage matching, orthogonal perturbation, and developmental morphology.",
+          "support_refute": "Support: reproducible stage-specific change rescued by wild-type reagent. Refute/redirect: no molecular effect despite validated perturbation, prompting tissue-specific or combinatorial tests.",
+          "novelty_feasibility_risk": "Novelty medium; feasibility medium; main risk is weak cross-species conservation."
+        }
+      ]
+    },
+    {
+      "id": "10.1093/g3journal/jkag203",
+      "title": "Transcriptomic profiles of the maternal-to-zygotic transition for Drosophila embryos exposed to acute and chronic heat stress.",
+      "authors": "Rashid F, Biel N, Drnevich J, Sokac AM.",
+      "journal": "MED",
+      "category": "research",
+      "article_type": "Journal Article",
+      "publication_date": "2026-08-13",
+      "doi": "10.1093/g3journal/jkag203",
+      "canonical_url": "https://doi.org/10.1093/g3journal/jkag203",
+      "abstract": "Heat stress challenges embryo survival, but the molecular reasons for this are unclear. We investigated how heat stress alters the maternal-to-zygotic transition (MZT) during Drosophila melanogaster development. Using RNA sequencing, we characterized the MZT under nonstress, acute, and chronic heat stress conditions. MZT genes were defined as those differentially expressed between the minor and major waves of zygotic genome activation. MZT genes were associated with multiple processes, including transcription, splicing, translation, and development. Under acute stress, the MZT deviated little from nonstressed embryos except that heat shock protein (HSP) genes were activated, and maternal transcript clearance was minimally misregulated. Under chronic stress, a core MZT persisted; but stress-related gene expression was obvious, maternal transcripts were strongly misregulated, and embryos showed poor survival. Overall, the MZT is robust, but increasingly falters with more severe stress. We present our dataset as a resource to aid molecular understanding of embryo resilience and vulnerability to environmental stressors.",
+      "access_note": "Europe PMC abstract/metadata; full text not assumed.",
+      "source": "Europe PMC",
+      "late_indexed": true,
+      "main_discovery": "Abstract-level finding (manual verification required): Heat stress challenges embryo survival, but the molecular reasons for this are unclear. We investigated how heat stress alters the maternal-to-zygotic transition (MZT) during Drosophila melanogaster development. Using RNA sequencing, we characterized the MZT under nonstress, acute, and chronic heat stress conditions. MZT genes were defined as those differentially expressed between the minor and major waves of zygotic genome activation. MZT genes were associated with multiple processes, including transcription, splicing, translation, and development. Under acute stress, the MZT deviated little from nonstressed embryos except that heat shock protein (HSP) genes were activated, and maternal transcript clearance was minimally misregulated. Under chronic stress, a core MZT persisted; but stress-related gene expression was obvious, maternal transcripts were strongly misregulated, and embryos showed poor survival. Overall, the MZT is robust, but increasingly falters with more severe stress. We present our dataset as a resource to aid molecular understanding of embryo resilience and vulnerability to environmental stressors.",
+      "importance_implication": "Potential relevance to ZGA/MZT is established by the title or abstract; detailed implications require inspection of the linked paper.",
+      "methods": [
+        "Methods were not reliably extractable from the available metadata."
+      ],
+      "key_evidence": [
+        "Accessible title/abstract metadata only."
+      ],
+      "limitations": [
+        "Automated fallback used; full text was not reviewed.",
+        "Local-model analysis failed: JSONDecodeError."
+      ],
+      "grant_ideas": [
+        {
+          "title": "Test conservation of the featured mechanism at the Xenopus mid-blastula transition",
+          "hypothesis": "Speculative: the featured factor or pathway changes the timing or amplitude of early zygotic transcription in Xenopus.",
+          "rationale": "Early Xenopus embryos provide rapid, externally accessible perturbation of pre-MBT and MBT stages.",
+          "design": "Perturb the candidate by validated CRISPR, mRNA, or rescue-controlled morpholino; assay stage-matched nascent transcription and candidate targets before and after MBT.",
+          "readouts_controls": "Primary readout: nascent RNA or targeted transcript abundance. Controls: uninjected and scrambled controls, rescue, stage matching, orthogonal perturbation, and developmental morphology.",
+          "support_refute": "Support: reproducible stage-specific change rescued by wild-type reagent. Refute/redirect: no molecular effect despite validated perturbation, prompting tissue-specific or combinatorial tests.",
+          "novelty_feasibility_risk": "Novelty medium; feasibility medium; main risk is weak cross-species conservation."
+        }
+      ]
+    },
+    {
+      "id": "10.21203/rs.3.rs-9751782/v1",
+      "title": "Long-read RNA-seq delineates temporal transcriptional dynamics in multiplexed and sexed single medfly embryos",
+      "authors": "Bayega A, Oikonomopoulos S, Rallis D, Mavritsakis D, Spanomitrou A, Mathiopoulos KD, Ragoussis J.",
+      "journal": "PPR",
+      "category": "preprint",
+      "article_type": "Preprint",
+      "publication_date": "2026-08-14",
+      "doi": "10.21203/rs.3.rs-9751782/v1",
+      "canonical_url": "https://doi.org/10.21203/rs.3.rs-9751782/v1",
+      "abstract": "Abstract Long-read transcriptome sequencing provides an opportunity to characterize transcript structure and gene expression dynamics simultaneously, particularly in organisms whose developmental programs remain incompletely understood. The Mediterranean fruit fly ( Ceratitis capitata ) is one of the most economically important agricultural pests worldwide, yet the molecular events that govern its earliest stages of embryogenesis remain poorly resolved. Here, we combined long-read RNA sequencing, absolute transcript quantification, embryo sexing, and pseudotemporal trajectory analysis to investigate transcriptional dynamics during the first fifteen hours of medfly development. Single embryos were collected at hourly intervals, and both RNA and genomic DNA were isolated from each embryo. External RNA standards enabled estimation of transcript abundance on an absolute scale, while embryo sex was determined using Y-specific molecular markers. Genome-guided transcriptome reconstruction identified 22,875 transcripts, including 3,879 previously unannotated genes absent from current reference gene models. Transcriptome-based clustering and lineage reconstruction recapitulated the continuous developmental trajectory and resolved developmental heterogeneity that was not apparent from collection time alone. Analysis of transcriptional activity identified successive waves of zygotic genome activation and revealed extensive remodeling of maternally supplied transcripts during the transition from maternal to zygotic developmental control. We further identified coordinated modules of temporally regulated genes associated with distinct developmental processes and found evidence of early dosage compensation among X-linked genes. Together, these findings provide a high-resolution view of early medfly embryogenesis and establish a framework for investigating developmental regulation, sex determination, and chromosome biology in an agriculturally important insect species.",
+      "access_note": "Europe PMC abstract/metadata; full text not assumed.",
+      "source": "Europe PMC",
+      "late_indexed": true,
+      "main_discovery": "Long-read RNA-seq reveals 22,875 transcripts including 3,879 unannotated genes in medfly embryos, with evidence of zygotic genome activation waves and maternal-to-zygotic transition remodeling.",
+      "importance_implication": "Provides high-resolution transcriptional dynamics for medfly embryogenesis, enabling study of developmental regulation, sex determination, and chromosome biology in an agriculturally important pest species.",
+      "methods": [
+        "Long-read RNA-seq",
+        "Absolute transcript quantification",
+        "Embryo sexing via Y-specific markers",
+        "Pseudotemporal trajectory analysis"
+      ],
+      "key_evidence": [
+        "22,875 transcripts identified",
+        "3,879 previously unannotated genes",
+        "Successive waves of zygotic genome activation",
+        "Maternal transcript remodeling during maternal-zygotic transition",
+        "Coordinated modules of temporally regulated genes",
+        "Early dosage compensation evidence"
+      ],
+      "limitations": [
+        "Full text not available in evidence",
+        "Limited to first 15 hours of development",
+        "No functional validation of gene functions"
+      ],
+      "grant_ideas": [
+        {
+          "title": "Temporal dynamics of maternal transcript degradation during early medfly embryogenesis",
+          "hypothesis": "Maternal transcripts undergo coordinated degradation waves that precede zygotic genome activation in medfly embryos",
+          "rationale": "The study identifies maternal-to-zygotic transition remodeling but does not specify degradation kinetics; understanding degradation timing could clarify zygotic activation triggers",
+          "design": "Time-course RNA-seq with targeted degradation assays at 2-hour intervals from 0-8h post-fertilization",
+          "readouts_controls": "Quantification of maternal transcripts (e.g., maternal housekeeping genes) vs. zygotic transcripts; controls: embryos without RNA degradation inhibitors, embryos with RNA degradation inhibitors",
+          "support_refute": "Support: If maternal transcripts show sharp decline coinciding with zygotic activation waves; Refute: If maternal transcripts persist beyond zygotic activation peaks",
+          "novelty_feasibility_risk": "Novelty: First study to map maternal transcript degradation in medfly; Feasibility: Uses existing long-read RNA-seq infrastructure; Risk: Medfly embryos may degrade RNA faster than expected"
+        },
+        {
+          "title": "Role of X-linked gene modules in early sex determination in medfly",
+          "hypothesis": "X-linked gene modules exhibit dosage compensation mechanisms that initiate early sex determination in medfly embryos",
+          "rationale": "The study notes evidence of early dosage compensation among X-linked genes but does not specify sex determination timing",
+          "design": "Sex-specific RNA-seq at 2-hour intervals from 0-4h post-fertilization with Y-specific markers",
+          "readouts_controls": "Quantification of X-linked gene expression modules; controls: Male embryos (Y+), female embryos (X+), embryos with X-chromosome deletion",
+          "support_refute": "Support: If X-linked modules show differential expression at 2h coinciding with sex determination; Refute: If X-linked modules remain uniform across sexes before 4h",
+          "novelty_feasibility_risk": "Novelty: First study to link X-linked modules to sex determination in medfly; Feasibility: Uses existing sexing markers; Risk: Medfly sex determination may be slower than in Drosophila"
+        },
+        {
+          "title": "Developmental heterogeneity in medfly embryogenesis",
+          "hypothesis": "Developmental heterogeneity persists beyond the maternal-zygotic transition in medfly embryos",
+          "rationale": "The study identifies developmental heterogeneity but does not specify its persistence post-zygotic activation",
+          "design": "Pseudotemporal trajectory analysis with single-cell RNA-seq at 4h and 8h post-fertilization",
+          "readouts_controls": "Cell-type-specific transcriptomes; controls: Bulk RNA-seq, embryos with perturbed developmental pathways",
+          "support_refute": "Support: If heterogeneity persists in specific cell lineages; Refute: If heterogeneity resolves by 8h",
+          "novelty_feasibility_risk": "Novelty: First study to quantify heterogeneity dynamics in medfly; Feasibility: Builds on existing pseudotemporal methods; Risk: Medfly embryos may have rapid developmental synchrony"
+        }
+      ]
+    },
+    {
+      "id": "10.1186/s12987-026-00853-y",
+      "title": "Skogholt’s disease: multimodal evidence for choroid plexus–centred clearance failure",
+      "authors": "Per Selnes, Jonas Jarholm, Antón Vila-Sanjurjo, Jan Aaseth, Fernando Gonzalez-Ortiz, Bradley MacIntosh, Kristoffer Grimstad, Håkon Sørensen, Erna Utnes, Atle Bjørnerud, Oliver Geier, Trygve Holmøy, et al.",
+      "journal": "Fluids and Barriers of the CNS",
+      "category": "research",
+      "article_type": "journal-article",
+      "publication_date": "2026-08-20",
+      "doi": "10.1186/s12987-026-00853-y",
+      "canonical_url": "https://doi.org/10.1186/s12987-026-00853-y",
+      "abstract": "Abstract Background Choroid plexus dysfunction has been proposed to reduce CSF production and impair brain solute clearance, but the in vivo consequences of sustained clearance failure for biomarker profiles and disease mechanisms remain poorly defined. We examined Skogholt’s disease, a rare, maternally inherited neurodegenerative syndrome as a natural human model to test whether primary choroid plexus failure can reshape CSF dynamics and biomarker profiles independently of overt neurodegeneration. Methods Multimodal assessment of 40 individuals (mean age 57.8 years; 16 affected individuals and 24 controls) was used to evaluate clearance dynamics, diffusion properties, and CSF–plasma biomarker relationships, including model-free analysis of dynamic contrast-enhanced MRI washout of the choroid plexus. Results We observed convergent evidence for a choroid plexus-centred clearance defect. Affected individuals had markedly reduced choroid plexus volume (Cohen’s |d| = 2.64) and prolonged contrast washout (time-above-half-peak |d| = 4.9) without cerebral parenchymal blood–brain barrier disruption. Diffusion MRI showed widespread reductions in mean diffusivity (|d| ≈ 1.0 in white matter; 0.85–0.89 in cortex), opposite to changes typical of neurodegeneration. CSF tau, amyloid β species, β-trace, neurofilament light and glial fibrillary acidic protein were elevated up to 12-fold, whereas plasma levels were normal or reduced, indicating marked CSF–plasma dissociation. Directional trace-metal shifts suggested impaired ATP-dependent transport. Mitochondrial genome sequencing identified a rare homoplasmic MT-RNR2 (m.1681G > A) variant that segregates with disease and is absent as a homoplasmic variant in public mitochondrial reference datasets. The variant localises to a highly conserved structural element of the mitochondrial 16S ribosomal RNA, supporting its candidacy as a pathogenic variant pending functional validation. Conclusions These findings provide in vivo evidence for choroid plexus dysfunction in a maternally inherited disorder with convergent evidence supporting a mitochondrial aetiology, associated with reduced CSF production and impaired blood–CSF barrier transport, substantially altering biomarker profiles in the absence of cortical atrophy or blood–brain barrier disruption. Elevated CSF but normal or low plasma neurodegeneration markers most parsimoniously reflect impaired CSF-to-blood clearance, highlighting a clearance-sensitive dimension of biomarker biology. Dynamic contrast-enhanced MRI choroid plexus washout and CSF–plasma coupling emerge as complementary in vivo markers of clearance capacity. This syndrome may represent a prototype of disorders defined by primary CSF clearance failure rather than neuronal degeneration.",
+      "access_note": "Crossref publisher-deposited metadata/abstract; full text not assumed.",
+      "source": "Crossref",
+      "late_indexed": false,
+      "main_discovery": "Choroid plexus dysfunction in Skogholt’s disease causes reduced CSF production and impaired CSF-to-blood clearance, evidenced by reduced choroid plexus volume, prolonged contrast washout, CSF biomarker elevation (tau, amyloid β, β-trace, neurofilament light, glial fibrillary acidic protein), and a mitochondrial variant (m.1681G > A) in the 16S ribosomal RNA.",
+      "importance_implication": "This provides in vivo evidence for a clearance-sensitive biomarker profile in the absence of neurodegeneration or blood-brain barrier disruption, highlighting choroid plexus dysfunction as a primary driver of biomarker alterations rather than neuronal degeneration.",
+      "methods": [
+        "Multimodal assessment of 40 individuals (16 affected, 24 controls) using dynamic contrast-enhanced MRI washout of the choroid plexus, diffusion MRI, and CSF/plasma biomarker analysis"
+      ],
+      "key_evidence": [
+        "Reduced choroid plexus volume (Cohen’s |d| = 2.64)",
+        "Prolonged contrast washout (time-above-half-peak |d| = 4.9)",
+        "Widespread reductions in mean diffusivity (|d| ≈ 1.0 in white matter; 0.85–0.89 in cortex)",
+        "Elevated CSF biomarkers (tau, amyloid β species, β-trace, neurofilament light, glial fibrillary acidic protein) up to 12-fold",
+        "Rare homoplasmic mitochondrial variant (m.1681G > A) in MT-RNR2"
+      ],
+      "limitations": [
+        "Mitochondrial variant requires functional validation",
+        "Lack of longitudinal data to track progression",
+        "Cross-sectional design limits causal inference"
+      ],
+      "grant_ideas": [
+        {
+          "title": "Mitochondrial variant-driven choroid plexus dysfunction in early Xenopus laevis",
+          "hypothesis": "The mitochondrial variant m.1681G > A disrupts ATP-dependent transport in choroid plexus epithelial cells, reducing CSF production and impairing CSF-to-blood clearance.",
+          "rationale": "Skogholt’s disease shows a homoplasmic mitochondrial variant (m.1681G > A) in MT-RNR2 that segregates with disease and localizes to a conserved structural element of the mitochondrial 16S ribosomal RNA. Xenopus laevis is a model organism with well-characterized choroid plexus development and CSF dynamics, allowing for targeted perturbation of mitochondrial function.",
+          "design": "In ovo injection of m.1681G > A variant into Xenopus laevis embryos at the 1-cell stage to assess early mitochondrial dysfunction in choroid plexus development (ZGA stage).",
+          "readouts_controls": "Perturbation: m.1681G > A variant injection; Assay: Dynamic contrast-enhanced MRI washout of choroid plexus at 12-hr post-fertilization (ZGA window); Discriminating readout: Reduced choroid plexus volume and prolonged contrast washout (time-above-half-peak) compared to controls; Essential controls: Wild-type injection, mitochondrial function rescue with ATP, and CSF production rate measurement.",
+          "support_refute": "Supporting result: If m.1681G > A reduces choroid plexus volume and prolongs contrast washout, it confirms mitochondrial dysfunction in CSF production. Refuting result: If no change occurs, it suggests the variant acts post-ZGA or requires additional factors.",
+          "novelty_feasibility_risk": "Novelty: First study to link mitochondrial variant to CSF dynamics in early Xenopus. Feasibility: High (Xenopus has well-established ZGA models). Risk: Low (variant is homoplasmic and conserved across species)."
+        },
+        {
+          "title": "Early CSF clearance failure in Xenopus laevis using mitochondrial perturbation",
+          "hypothesis": "Early mitochondrial perturbation in Xenopus laevis embryos disrupts CSF-to-blood clearance, leading to elevated CSF biomarkers without neurodegeneration.",
+          "rationale": "Skogholt’s disease shows CSF biomarker elevation (tau, amyloid β) without neurodegeneration, indicating clearance failure. Xenopus laevis has a well-defined ZGA stage where mitochondrial function is critical for development, allowing for early perturbation studies.",
+          "design": "In ovo injection of mitochondrial inhibitors (e.g., oligomycin A) at the 1-cell stage to disrupt ATP-dependent transport in choroid plexus epithelial cells (ZGA window).",
+          "readouts_controls": "Perturbation: Oligomycin A injection; Assay: CSF biomarker levels (tau, amyloid β) and choroid plexus volume at 12-hr post-fertilization; Discriminating readout: Elevated CSF biomarkers with reduced choroid plexus volume; Essential controls: Vehicle control, ATP rescue, and CSF production rate measurement.",
+          "support_refute": "Supporting result: If CSF biomarkers elevate and choroid plexus volume reduces, it confirms early clearance failure. Refuting result: If no change occurs, it suggests the perturbation acts too late or requires additional factors.",
+          "novelty_feasibility_risk": "Novelty: First study to test CSF clearance failure in Xenopus using mitochondrial perturbation. Feasibility: High (Xenopus has well-established ZGA models). Risk: Low (oligomycin A is a well-characterized inhibitor)."
+        }
+      ]
+    }
+  ],
+  "synthesis": {
+    "themes": [
+      "maternal-to-zygotic transition (MZT)",
+      "zygotic genome activation (ZGA)",
+      "maternal mRNA decay",
+      "RNA splicing",
+      "CNOT1-YTHDF2 interaction",
+      "Xenopus laevis as a model system",
+      "conservation of ZGA mechanisms across species",
+      "mitochondrial function in early development"
+    ],
+    "methods_trends": [
+      "RNA-seq",
+      "knockdown (morpholino)",
+      "CRISPR",
+      "long-read sequencing",
+      "pseudotemporal trajectory analysis",
+      "dynamic contrast-enhanced MRI"
+    ],
+    "ranked_grant_directions": [
+      {
+        "rank": 1,
+        "title": "Role of CNOT1 in maternal mRNA decay during early Xenopus laevis development",
+        "rationale": "CNOT1's role in maternal mRNA decay and ZGA in goats is well-established, and Xenopus laevis has well-characterized ZGA timing and maternal mRNA decay mechanisms. This is a high-impact, high-feasibility direction with moderate risk.",
+        "significance": "High",
+        "novelty": "High",
+        "feasibility": "High",
+        "risk": "Moderate"
+      },
+      {
+        "rank": 2,
+        "title": "Impact of CNOT1 on RNA splicing during ZGA in Xenopus laevis",
+        "rationale": "CNOT1 knockdown in goats leads to differential splicing events in 2959 genes, suggesting a conserved role in RNA splicing during ZGA. Xenopus laevis has well-established splicing analysis protocols, making this highly feasible.",
+        "significance": "High",
+        "novelty": "High",
+        "feasibility": "High",
+        "risk": "Moderate"
+      },
+      {
+        "rank": 3,
+        "title": "YTHDF2-CNOT1 interaction in Xenopus laevis ZGA",
+        "rationale": "The evidence predicts CNOT1 crosstalk with YTHDF2 in goats and shows YTHDF2 knockdown increases transcription around polyadenylation sites during ZGA in mice, suggesting a conserved mechanism. However, feasibility is moderate due to potential species-specific differences.",
+        "significance": "Medium",
+        "novelty": "Medium",
+        "feasibility": "Moderate",
+        "risk": "High"
+      },
+      {
+        "rank": 4,
+        "title": "Test conservation of the featured mechanism at the Xenopus mid-blastula transition",
+        "rationale": "This is a speculative direction based on Drosophila and mouse studies, but the cross-species conservation risk is high. It's a medium-novelty, medium-feasibility direction with high risk.",
+        "significance": "Medium",
+        "novelty": "Medium",
+        "feasibility": "Medium",
+        "risk": "High"
+      }
+    ],
+    "why_xenopus_now": "Xenopus laevis provides a well-characterized model for ZGA and maternal mRNA decay with rapid, externally accessible perturbation of pre-MBT and MBT stages, enabling high-impact studies on conserved mechanisms of maternal-to-zygotic transition."
+  },
+  "search_phrases": [
+    "zygotic genome activation",
+    "embryonic genome activation",
+    "maternal-to-zygotic transition",
+    "maternal zygotic transition",
+    "maternal RNA clearance"
+  ],
+  "source_note": "Discovery used Europe PMC and Crossref public APIs with a 7-day reporting window and 14-day late-indexing lookback. Summaries used only retrieved metadata/abstracts and a local Ollama model; no OpenAI service was called. Full text was not assumed."
+}

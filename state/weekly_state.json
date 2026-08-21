@@ -30,6 +30,36 @@
       "title": "High-resolution mapping of embryonic genome activation unveils a decoupling of transcription activation from precocious H3K4me3 removal.",
       "publication_date": "2026-08-07",
       "report": "reports/2026/zga_mzt_weekly_2026-08-09.json"
+    },
+    "10.1016/j.anireprosci.2026.108306": {
+      "title": "CNOT1 is a potential YTHDF2 target that orchestrates maternal mRNA decay and zygotic genome activation during goat embryogenesis.",
+      "publication_date": "2026-08-10",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-21.json"
+    },
+    "10.1016/j.bbrc.2026.154417": {
+      "title": "Pcgf5 controls the exit from totipotency in mouse embryonic stem cells.",
+      "publication_date": "2026-08-11",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-21.json"
+    },
+    "10.7554/elife.108371": {
+      "title": "Nucleation-dependent propagation of Polycomb modifications emerges during the <i>Drosophila</i> maternal to zygotic transition.",
+      "publication_date": "2026-08-13",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-21.json"
+    },
+    "10.1093/g3journal/jkag203": {
+      "title": "Transcriptomic profiles of the maternal-to-zygotic transition for Drosophila embryos exposed to acute and chronic heat stress.",
+      "publication_date": "2026-08-13",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-21.json"
+    },
+    "10.21203/rs.3.rs-9751782/v1": {
+      "title": "Long-read RNA-seq delineates temporal transcriptional dynamics in multiplexed and sexed single medfly embryos",
+      "publication_date": "2026-08-14",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-21.json"
+    },
+    "10.1186/s12987-026-00853-y": {
+      "title": "Skogholt’s disease: multimodal evidence for choroid plexus–centred clearance failure",
+      "publication_date": "2026-08-20",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-21.json"
     }
   },
   "runs": [
@@ -52,7 +82,27 @@
         "accepted_at": "2026-08-10T02:00:35.617111+00:00",
         "detail": "SMTP server accepted the message."
       }
+    },
+    {
+      "coverage": {
+        "start": "2026-08-15",
+        "end": "2026-08-21",
+        "query_start": "2026-08-08"
+      },
+      "pdf": "pdf/2026/zga_mzt_weekly_2026-08-21.pdf",
+      "report": "reports/2026/zga_mzt_weekly_2026-08-21.json",
+      "papers": 6,
+      "qa": {
+        "pages": 20,
+        "bytes": 62569
+      },
+      "email": {
+        "status": "verified",
+        "recipient": "huic@sc.edu",
+        "accepted_at": "2026-08-21T16:48:14.953593+00:00",
+        "detail": "SMTP server accepted the message."
+      }
     }
   ],
-  "last_successful_run": "2026-08-10T01:37:42.504138+00:00"
+  "last_successful_run": "2026-08-21T16:39:36.301380+00:00"
 }
